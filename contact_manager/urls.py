@@ -10,4 +10,5 @@ urlpatterns = [
     path('<int:pk>/update/', ContactUpdateView.as_view(), name='contact_update'),
     path('<int:pk>/delete/', ContactDeleteView.as_view(), name='contact_delete'),
     path('<int:pk>/', ContactDetailView.as_view(), name='contact_detail'),
+    
 ]
